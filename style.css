@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    max-width: 1920px;
+    border: 0px rgb(247, 1, 1) solid;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: inline-block;
+
+}
+
+
+
+/*ESTILOS HEADER*/
+
+#header{
+    background-color: rgb(20, 138, 92);
+    width: 100%;
+    height: 150px;
+    font-size:larger;
+    position: fixed;
+}
+
+
+#nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+
+.img_nav{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+/*ESTILOS MAIN*/
+
+#main{
+    max-width: 1920px;
+    min-height:auto;
+    padding-bottom: 50px;
+
+}
+
+.main_banner{
+    width: 100%;
+    height: 700px;
+    background-image: url("images/banner-ejemplo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 51%;
+}
+
+
+.main_text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+.main_text img{
+    width: 350px;
+    margin: 10px;
+}
+
+.acerca_de_grid{
+    width: ;
+    height: auto;
+    text-align: center;
+    display: grid;
+    padding: 100px 200px 0px 200px;
+    gap: 50px;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: 
+    "img_acerca1 img_acerca2 img_acerca3"
+    "p_acerca p_acerca p_acerca";
+}
+
+.img_acerca1{
+    grid-area: img_acerca1;
+}
+
+.img_acerca2{
+    grid-area: img_acerca2;
+}
+
+.img_acerca3{
+    grid-area: img_acerca3;
+}
+
+.p_acerca{
+    grid-area: p_acerca;
+    height: auto;
+    text-align: center;
+}
+
+
+.img_acerca1 , .img_acerca2 , .img_acerca3{
+    width: 80%;
+align-items: center;
+}
+
+
+
+
+.form{
+    border: px black solid;
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+
+.form_area{
+    width: 300px;
+    height: 150px;
+}
+
+
+
+
+.form_text {
+    width: 200px;
+    height: 25px;
+}
+
+
+.form_imput{
+    width: 200px;
+    height: 20px;
+}
+
+
+
+.form_text , .form_check , .form_select , .form_imput , .form_area{
+    border: 1px rgb(12, 10, 10) solid;
+}
+
+
+.imagen{
+    display: grid;
+    width: ;
+    height: auto;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    gap: 50px;
+    padding: 0px 100px 0px 100px;
+}
+
+.img1 , .img2 , .img3 , .img4 , .img5 , .img6{
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+
+
+
+.product{
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.product1{
+    grid-column:1/2 ;
+    display: flex;
+    grid-row: 1/3;
+}
+
+
+.product2{
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.product3{
+    display: flex;
+    grid-column: 5/6;
+    grid-row: 1/3;
+}
+
+.aside_product1 , .aside_product3 , .aside_product2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*ESTILOS FOOTER*/
+
+#footer{
+    background-color: rgb(20, 138, 92);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.footer_redes{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*BREAKPOINTS
+celular=576px
+desktop=1200px
+*/
+
+
+
