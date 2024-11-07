@@ -73,7 +73,7 @@ li{
     height: auto;
     text-align: center;
     flex-wrap: wrap;
-    
+    padding: 0px 50px;
 }
 
 .main_text img{
@@ -82,7 +82,7 @@ li{
 }
 
 .acerca_de_grid{
-    width: ;
+    width: 100%;
     height: auto;
     text-align: center;
     display: grid;
@@ -161,7 +161,7 @@ align-items: center;
 
 .imagen{
     display: grid;
-    width: ;
+    width: 100%;
     height: auto;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
